@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 # Add ruby and cocoapods
 RUN apt-get update
-RUN apt-get install -y git ruby-full
+RUN apt-get install -y git ruby-full curl
 
 # Packaged `activesupport` incompatible 
 # with packaged `ruby` version
