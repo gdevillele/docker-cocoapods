@@ -13,11 +13,5 @@ docker run --rm -v `pwd`:/project -w /project gaetan/cocoapods:latest pod init
 ### Build image
 
 ```
-make image
-```
-
-### Clean built image
-
-```
-make clean
+./build-image.sh
 ```
