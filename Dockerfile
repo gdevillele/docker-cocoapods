@@ -8,7 +8,7 @@ RUN apt-get install -y git ruby-full curl
 # with packaged `ruby` version
 # RUN gem install activesupport -v 4.2.6
 
-RUN gem install cocoapods
+RUN gem install cocoapods -v 1.5.3
 
 # You cannot run CocoaPods as root
 # (user `nobody` does not have enough permissions)
